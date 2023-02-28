@@ -23,26 +23,26 @@ section {
 .sedans {
     background-color: hsl(31, 77%, 52%);
     color: hsl(0, 0%, 95%);
-    width: 15.625rem;
-    height: 25rem;
-    padding: 1.875rem;
+    width: 13.75rem;
+    height: 28.125rem;
+    padding: 3.125rem;
     border-radius: .625rem 0rem 0rem .625rem;
 }
 
 .suv {
     background-color: hsl(184, 100%, 22%);
     color: hsl(0, 0%, 95%);
-    width: 15.625rem;
-    height: 25rem;
-    padding: 1.875rem;
+    width: 13.75rem;
+    height: 28.125rem;
+    padding: 3.125rem;
 }
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
-    width: 15.625rem;
-    height: 25rem;
-    padding: 1.875rem;
+    width: 13.75rem;
+    height: 28.125rem;
+    padding: 3.125rem;
     border-radius: 0rem .625rem .625rem 0rem;
 }
 
@@ -50,6 +50,7 @@ h1 {
     font-family: "Big Shoulders Display";
     font-weight: 700;
     font-size: 2.5rem;
+    text-transform: uppercase;
 }
 
 p{
@@ -66,7 +67,8 @@ p{
     width: 9.375rem;
     border-style: none;
     border-radius: 1.875rem;
-    margin-top: 3.125rem;
+    margin-top: 5.625rem;
+    transition: all ease-in-out 300ms;
 }
 
 .learn-sedan:hover {
@@ -78,7 +80,6 @@ p{
     width: 9.375rem;
     border: .125rem solid hsl(0, 0%, 95%);
     border-radius: 1.875rem;
-    margin-top: 3.125rem;
 }
 
 .learn-suv {
@@ -90,7 +91,8 @@ p{
     width: 9.375rem;
     border-style: none;
     border-radius: 1.875rem;
-    margin-top: 3.125rem;
+    margin-top: 5.625rem;
+    transition: all ease-in-out 300ms;
 }
 
 .learn-suv:hover {
@@ -102,7 +104,6 @@ p{
     width: 9.375rem;
     border: .125rem solid hsl(0, 0%, 95%);
     border-radius: 1.875rem;
-    margin-top: 3.125rem;
 }
 
 .learn-luxury {
@@ -114,7 +115,8 @@ p{
     width: 9.375rem;
     border-style: none;
     border-radius: 1.875rem;
-    margin-top: 3.125rem;
+    margin-top: 5.625rem;
+    transition: all ease-in-out 300ms;
 }
 
 .learn-luxury:hover {
@@ -126,7 +128,6 @@ p{
     width: 9.375rem;
     border: .125rem solid hsl(0, 0%, 95%);
     border-radius: 1.875rem;
-    margin-top: 3.125rem;
 }
 
 footer { 
