@@ -2,9 +2,7 @@
 
 body {
     background-color: hsl(0, 0%, 95%);
-    font-size: .9375rem;
     font-family: "Lexend Deca", sans-serif;
-    font-weight: 400;
 }
 
 main {
@@ -23,8 +21,8 @@ section {
 .sedans {
     background-color: hsl(31, 77%, 52%);
     color: hsl(0, 0%, 95%);
-    width: 13.75rem;
-    height: 28.125rem;
+    width: 13.125rem;
+    height: 25rem;
     padding: 3.125rem;
     border-radius: .625rem 0rem 0rem .625rem;
 }
@@ -32,16 +30,16 @@ section {
 .suv {
     background-color: hsl(184, 100%, 22%);
     color: hsl(0, 0%, 95%);
-    width: 13.75rem;
-    height: 28.125rem;
+    width: 13.125rem;
+    height: 25rem;
     padding: 3.125rem;
 }
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
-    width: 13.75rem;
-    height: 28.125rem;
+    width: 13.125rem;
+    height: 25rem;
     padding: 3.125rem;
     border-radius: 0rem .625rem .625rem 0rem;
 }
@@ -55,79 +53,65 @@ h1 {
 
 p{
     color: hsla(0, 0%, 100%, 0.75);
-    line-height: 1.8;
+    line-height: 1.7;
+    font-size: .9375rem;
 }
 
 .learn-sedan {
     background-color: hsl(0, 0%, 95%);
     color: hsl(31, 77%, 52%);
-    font-size: .9375rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 400;
     height: 3.125rem;
     width: 9.375rem;
     border-style: none;
     border-radius: 1.875rem;
-    margin-top: 5.625rem;
+    margin-top: 3.125rem;
     transition: all ease-in-out 300ms;
 }
 
 .learn-sedan:hover {
     background-color: hsl(31, 77%, 52%);
     color: hsl(0, 0%, 95%);
-    font-size: .9375rem;
-    font-weight: 700;
-    height: 3.125rem;
-    width: 9.375rem;
     border: .125rem solid hsl(0, 0%, 95%);
-    border-radius: 1.875rem;
 }
 
 .learn-suv {
     background-color: hsl(0, 0%, 95%);
     color: hsl(184, 100%, 22%);
-    font-size: .9375rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 400;
     height: 3.125rem;
     width: 9.375rem;
     border-style: none;
     border-radius: 1.875rem;
-    margin-top: 5.625rem;
+    margin-top: 3.125rem;
     transition: all ease-in-out 300ms;
 }
 
 .learn-suv:hover {
     background-color: hsl(184, 100%, 22%);
     color: hsl(0, 0%, 95%);
-    font-size: .9375rem;
-    font-weight: 700;
-    height: 3.125rem;
-    width: 9.375rem;
     border: .125rem solid hsl(0, 0%, 95%);
-    border-radius: 1.875rem;
 }
 
 .learn-luxury {
     background-color: hsl(0, 0%, 95%);
     color: hsl(179, 100%, 13%);
-    font-size: .9375rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 400;
     height: 3.125rem;
     width: 9.375rem;
     border-style: none;
     border-radius: 1.875rem;
-    margin-top: 5.625rem;
+    margin-top: 3.125rem;
     transition: all ease-in-out 300ms;
 }
 
 .learn-luxury:hover {
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
-    font-size: .9375rem;
-    font-weight: 700;
-    height: 3.125rem;
-    width: 9.375rem;
     border: .125rem solid hsl(0, 0%, 95%);
-    border-radius: 1.875rem;
 }
 
 footer { 
